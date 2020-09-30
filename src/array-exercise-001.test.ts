@@ -21,6 +21,16 @@ describe('array tests', () => {
     expect(oddArr).toEqual(output);
   });
 
+  it('test iteration 3', () => {
+    // test
+    const input = [null];
+    const output = [];
+
+    // assert
+    const oddArr = getOddNumbers(input);
+    expect(oddArr).toEqual(output);
+  });
+
   // feel free to create more test iterations for different use cases.
   // finding normal uses cases are easy, but there might be some edge cases ;).
 });
