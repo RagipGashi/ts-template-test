@@ -13,9 +13,6 @@
  * @param {*} input
  */
 export function getOddNumbers(input: Array<number>) {
-  const oddArr = [];
-  for (let i = 0; i < input.length; i++) {
-    if (input[i] % 2 !== 0) oddArr.push(input[i]);
-  }
+  const oddArr = input.filter((Number) => Number % 2 !== 0);
   return oddArr;
 }
