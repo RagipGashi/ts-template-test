@@ -40,6 +40,17 @@ describe('array tests', () => {
     const oddArr = getOddNumbers(input);
     expect(oddArr).toEqual(output);
   });
+
+  it('test iteration 5', () => {
+    // test
+    const input = [parseInt('010'), -3, parseInt('9'), parseInt('011'), null, parseInt('') || 0];
+    const output = [-3, 9, 11];
+
+    // assert
+    const oddArr = getOddNumbers(input);
+    expect(oddArr).toEqual(output);
+  });
+
   // feel free to create more test iterations for different use cases.
   // finding normal uses cases are easy, but there might be some edge cases ;).
 });
