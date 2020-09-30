@@ -12,10 +12,10 @@
  *
  * @param {*} input
  */
-export function getOddNumbers(input: number[]) {
+export function getOddNumbers(input: Array<number>) {
   const oddArr = [];
   for (let i = 0; i < input.length; i++) {
     if (input[i] % 2 !== 0) oddArr.push(input[i]);
   }
-  return console.log(oddArr);
+  return oddArr;
 }
