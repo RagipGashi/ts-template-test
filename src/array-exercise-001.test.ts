@@ -7,7 +7,7 @@ describe('array tests', () => {
     const output = getOddNumbers(input);
 
     // assert
-    const expectedResult = [2, 4, -4];
+    const expectedResult = [-3, 1];
     expect(output).toEqual(expectedResult);
   });
 
@@ -17,7 +17,7 @@ describe('array tests', () => {
     const output = getOddNumbers(input);
 
     // assert
-    const expectedResult = [0, 2, 2];
+    const expectedResult = [1, 3];
     expect(output).toEqual(expectedResult);
   });
 
