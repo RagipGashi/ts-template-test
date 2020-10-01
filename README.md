@@ -1,65 +1,4 @@
-# Typescript Project Setup Guide
-
-This is an empty template for creating TypeScript projects. It also includes ESLint and Jest.
-
-The easiest way of creating a new project is by forking this into a new GitHub repository:
-
-- fork this repo on [GitHub](https://github.com/software-developer-org/typescript-template)
-  by pressing the fork button on the upper right side.
-- choose the account you want your fork (your new repo) to be placed
-- click on the settings button in your forked repo and change the name e.g. to 'myproject'
-- open a console / bash and get a local copy using `git clone https://github.com/youraccount/yourproject'
-- change the package.json to your needs
-- ...enjoy with your new project :)!
-
-## Why forking?
-
-Have a look at this [fork](https://github.com/taitruong/typescript-test). In the meanwhile the main repo has changed. In the forked repo you see something like this:
-
-> This branch is XYZ commits behind software-developer-org:master. | Pull request | Compare
-
-Now you can go to '[Compare](https://github.com/software-developer-org/typescript-template/compare/master...taitruong:master)' and click on '[switching the base for your comparison](https://github.com/taitruong/typescript-test/compare/master...software-developer-org:master)' and you can create a pull request for getting all the changes into your fork.
-
-# Setup tool chain
-
-## Git
-
-Install and configure git following this [git-started](https://github.com/software-developer-org/git-started) as a basic tutorial.
-
-In case you are new to git: step back, take your time, and work through the tutorial at your own speed! git is a tool you will work with on a daily basis. The better you understand and dive deeper into it, the more productive you will be on your daily business!
-
-Once you have mastered the basics of git followed these intermediate [git-bootcamp](https://github.com/software-developer-org/bootcamp) exercises.
-
-## Node.js
-
-You can find the latest version for your system at [nodejs.org](https://nodejs.org/en/). There are two versions:
-
-- a long time support version (LTS): which should be used on production
-- latest version: if you are curios about the latest Node features
-
-If you are not implementing in Node, or do just TypeScript, then go for the LTS. This will also make your life easier when integrating other projects or apis.
-
-## Node Package Manager (npm)
-
-NOTE: If you install Node.js it also includes npm.
-
-npm is (a) a [registry](https://docs.npmjs.com/about-npm/) where you can find all open source packages [here](npmjs.com) and (b) a command line tool (CLI) for installing node packages from this registry (and others).
-
-## Visual Studio Code (aka VSCode/ vs code)
-
-Visual Studio Code is a lightweight but powerful source code editor. You can download the latest version on [code.visualstudio.com](https://code.visualstudio.com/)
-
-## VSCode Plugins
-
-VSCode has some realy helpful extensions. For intalling extensions follow [these instructions](https://code.visualstudio.com/docs/editor/extension-gallery).
-We recommend the following extensions:
-
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
-- [Prettier- Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-
-The easiest way to install them is to search for each in the vscode extention tab (Ctrl+Shift+X)
+# Typescript Project Test
 
 # Getting Started
 
@@ -179,13 +118,6 @@ npm  run build
 ```
 
 It also clears any previously builded files bevor compiling.
-
-## New to JavaScript and TypeScript?
-
-Start coding and open the array-exercise-001.test.ts file. Check out these resources:
-
-- additional resources on JavaScript check the Mozilla Developer Network (MDN, see below).
-- especially the reference on [Arrays on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 # Resources
 
