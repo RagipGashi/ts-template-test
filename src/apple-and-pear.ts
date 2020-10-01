@@ -1,3 +1,14 @@
+/** Exercise: Sort a mixed array with pears and apples in two other arrays each of them to contain, one only apples, and the other only pears
+ *
+ * FruitBasket: enum, which contain Apple and Pear
+ *
+ * @param basket1, a parameter which is a mixed array with pears and apples
+ * @param basket2, a parameter which is also a mixed array with pears and apples
+ *
+ * function getFruits(basket1: FruitBasket[], basket2: FruitBaske[]): Array<FruitBasket[]>
+ *
+ */
+
 export enum FruitsBasket {
   'Apple',
   'Pear',
