@@ -9,11 +9,13 @@
  *
  */
 
+// Create enum which containg Apple and Pear
 export enum FruitsBasket {
   'Apple',
   'Pear',
 }
 
+// Declare a function
 export function getFruitsWithForEach(basket1: FruitsBasket[], basket2: FruitsBasket[]): Array<FruitsBasket[]> {
   const apple = [];
   const pear = [];
