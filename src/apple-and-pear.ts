@@ -20,3 +20,15 @@ export function getFruitsWithForEach(basket1: FruitsBasket[], basket2: FruitsBas
   const result = [apple, pear];
   return result;
 }
+
+export function getFruitsWithFilter(basket1: FruitsBasket[], basket2: FruitsBasket[]): Array<FruitsBasket[]> {
+  const fruits: FruitsBasket[][] = [basket1, basket2];
+
+  const allFruits: FruitsBasket[] = fruits.flat();
+
+  const apple = allFruits.filter((fruit) => fruit === FruitsBasket.Apple);
+  const pear = allFruits.filter((fruit) => fruit === FruitsBasket.Pear);
+
+  const result = [apple, pear];
+  return result;
+}
